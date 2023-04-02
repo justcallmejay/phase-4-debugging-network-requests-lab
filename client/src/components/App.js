@@ -14,6 +14,8 @@ function App() {
       .then(setToys);
   }, []);
 
+  console.log(toys)
+
   function handleClick() {
     setShowForm((showForm) => !showForm);
   }

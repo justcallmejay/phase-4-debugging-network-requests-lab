@@ -39,6 +39,7 @@ body {
 }
 
 button {
+  cursor: pointer;
   position: relative;
   background-color: #e04b52;
   border: none;
